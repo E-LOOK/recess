@@ -1,6 +1,6 @@
+import 'package:TheLook/Sign_in/utils/authentication_client.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:Sign_in/utils/authentication_client.dart';
 
 import 'login_page.dart';
 
