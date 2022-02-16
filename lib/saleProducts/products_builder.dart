@@ -1,4 +1,3 @@
-import 'package:TheLook/Modules/constants.dart';
 import 'package:flutter/material.dart';
 import 'product_list.dart';
 import 'productscard.dart';

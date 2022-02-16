@@ -1,4 +1,3 @@
-import 'package:TheLook/Modules/constants.dart';
 import 'package:flutter/material.dart';
 import 'service_nameslist.dart';
 import 'service_card.dart';
