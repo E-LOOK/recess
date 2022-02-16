@@ -1,7 +1,7 @@
 import 'package:TheLook/kids/detailedscreenkids.dart';
 import 'package:TheLook/men/detailedmenScreen.dart';
-import 'package:TheLook/women/detailedmanicure.dart';
-import 'package:TheLook/women/detailedscreenwomen.dart';
+import 'package:TheLook/women%20styles/detailedmanicure.dart';
+import 'package:TheLook/women%20styles/detailedscreenwomen.dart';
 import 'package:flutter/material.dart';
 
 

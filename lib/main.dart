@@ -37,6 +37,7 @@ void main() async {
   );
 }
 
+
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
@@ -121,9 +122,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: const [
                   CircleAvatar(
-                      radius: 65,
-                      backgroundImage: AssetImage(
-                          'assets/WhatsApp Image 2022-02-14 at 18.42.16.jpeg')),
+                    radius: 65,
+                    backgroundImage: AssetImage('assets/WhatsApp Image 2022-02-14 at 18.42.16.jpeg')
+                  ),
                 ],
               ),
             ),
@@ -139,8 +140,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   '${widget.user.displayName}',
                   style: const TextStyle(
                     color: Colors.black,
+                  
                   ),
                 ),
+
                 onTap: () {},
               ),
             ),
@@ -161,6 +164,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       TextStyle(color: kTextColor, fontWeight: FontWeight.w300),
                 ),
                 onTap: () {},
+                
               ),
             ),
             Card(
@@ -176,18 +180,21 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 title: Text(
                   ' \$ ${context.select((HomeController controller) => controller.totalPrice) + context.select((Controller2 controller) => controller.totalPrice)} ',
-                  style: const TextStyle(
+                    style: const TextStyle(
                     fontSize: 15,
                     fontWeight: FontWeight.w400,
                     color: Colors.green,
                   ),
                 ),
+
                 onTap: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => const CartScreen()),
                   );
                 },
+
+              
               ),
             ),
             Card(
